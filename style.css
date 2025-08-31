@@ -1,0 +1,142 @@
+*{
+    text-decoration: none;
+    font-family: futura bk bt;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(rememo.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#logo{
+    width: 70px;
+    aspect-ratio: 1;
+    margin: 20px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    position: relative;
+    color: white;
+}
+
+nav{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.navItems{
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 30px;
+}
+
+ul{
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    list-style: lower-roman;
+    text-decoration: none;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(108, 203, 255);
+}
+
+#ian{
+    border-radius: 15px;
+    margin: 20px;
+    margin-right: 40px;
+    width: 360px;
+    height: 570px;
+}
+
+.profil{
+    display: flex;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+}
+
+.details{
+    width: 500px;
+    height: 340px;
+}
+
+.details *{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+#paragraf{
+    width: 500px;
+    text-wrap: wrap;
+}
+
+.linkBox{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.link{
+    width: 90%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 50%;
+    box-sizing: border-box;
+    padding-right: 40px;
+    margin-top: 25px;
+    gap: 5px;
+    border-radius: 15px;
+    transition: .4s;
+}
+
+.link:hover{
+    width: 100%;
+    /* background-color: rgba(175, 175, 175, 0.504); */
+    transition: .28s;
+    filter: drop-shadow(6px 6px 4px rgb(98, 192, 255));
+}
+
+
+.link h3{
+    color: white;
+    padding-left: 10px;
+}
+
+.link img{
+    width: 50px;
+    border-radius: 100%;
+}
+
+.link a{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
