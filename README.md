@@ -1,2 +1,2 @@
 **link**
-aulian2036.github.io/tugas2
+https://aulian2036.github.io/tugas2
