@@ -92,6 +92,9 @@ li a{
 #paragraf{
     width: 500px;
     text-wrap: wrap;
+    background-color: rgba(161, 161, 161, 0.19);
+    border-radius: 15px;
+    padding: 10px;
 }
 
 .linkBox{
